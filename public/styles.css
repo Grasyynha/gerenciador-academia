@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700=swap');
+
+:root {
+    --primary-color: #7159c1
+}
+
+
 
 * {
     margin: 0;
@@ -8,7 +14,7 @@
 
 
 body {
-    background-color: #7159c1;
+    background-color: var(--primary-color);
     font-family: 'Roboto', sans-serif;
 }
     
@@ -32,4 +38,29 @@ header {
 
 .links a {
     text-decoration: none;
+    color: #777;
+    position: relative;
+}
+
+.links a.active {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+.links a:hover {
+    color: var(--primary-color);
+}
+
+.links a::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+} 
+
+.links a:hover::after {
+    width: 100%;
+    transition: width 200ms ease-in-out;
 }
