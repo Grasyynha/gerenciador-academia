@@ -1,0 +1,31 @@
+{
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "http://google.com",
+      "name": "Grasi",
+      "birth": 319766400000,
+      "gender": "F",
+      "services": "fit,zumba",
+      "created_at": 1584917188092
+    },
+    {
+      "id": 2,
+      "avatar_url": "http://google.com",
+      "name": "Jose",
+      "birth": 538358400000,
+      "gender": "M",
+      "services": "musculaçao,crossfit,pilates",
+      "created_at": 1584917222613
+    },
+    {
+      "id": 3,
+      "avatar_url": "http://google.com",
+      "name": "Nicollas",
+      "birth": 942364800000,
+      "gender": "M",
+      "services": "fit,zumba",
+      "created_at": 1585071442182
+    }
+  ]
+}
