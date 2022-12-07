@@ -5,7 +5,7 @@
   "author": "Grasiela Texeira <grasy.mst@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "nunjucks": "^3.2.0"
   },
   "scripts": {
